@@ -1,25 +1,17 @@
 # Marketplace
 
-Use Python3.
-
-## Development
-
-Install for development with:
+Inside a virtualenv, install dependencies and app with:
 
     $> make develop
 
-Launch app with:
+Run app with:
 
     $> make run
+
+It uses SQLite in-memory database, pre-populated with test data.
 
 ## Dependencies
 
 Deps are managed via `pip-tools`. Bump them with:
 
     $> make deps
-
-## Tests
-
-We use `tox`. Run tests with:
-
-    $> make test
