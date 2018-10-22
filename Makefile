@@ -1,7 +1,11 @@
+run: develop
+	marketplace
+
 develop: install-deps
 	pip install -e .
 
 deps:
+	pip install -U pip pip-tools
 	pip-compile
 
 install-deps:

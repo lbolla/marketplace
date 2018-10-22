@@ -10,6 +10,7 @@ setup(
     packages=find_packages('.'),
     install_requires=[
         'Flask',
+        'flask-restplus',
     ],
     extras_require={
         'testing': [
