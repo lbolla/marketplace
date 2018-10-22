@@ -11,6 +11,7 @@ setup(
     install_requires=[
         'Flask',
         'flask-restplus',
+        'flask-sqlalchemy',
     ],
     extras_require={
         'testing': [

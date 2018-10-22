@@ -1,14 +1,16 @@
 # Marketplace
 
-Use Python3. Launch app with:
-
-    $> make run
+Use Python3.
 
 ## Development
 
 Install for development with:
 
     $> make develop
+
+Launch app with:
+
+    $> make run
 
 ## Dependencies
 

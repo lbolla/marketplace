@@ -1,4 +1,4 @@
-run: develop
+run:
 	marketplace
 
 develop: install-deps
@@ -14,4 +14,4 @@ install-deps:
 test:
 	tox -v
 
-.PHONY: develop deps install-deps test
+.PHONY: develop deps install-deps run test

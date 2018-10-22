@@ -7,6 +7,7 @@
 aniso8601==3.0.2          # via flask-restplus
 click==7.0                # via flask
 flask-restplus==0.12.1
+flask-sqlalchemy==2.3.2
 flask==1.0.2
 itsdangerous==1.0.0       # via flask
 jinja2==2.10              # via flask
@@ -14,4 +15,5 @@ jsonschema==2.6.0         # via flask-restplus
 markupsafe==1.0           # via jinja2
 pytz==2018.5              # via flask-restplus
 six==1.11.0               # via flask-restplus
+sqlalchemy==1.2.12        # via flask-sqlalchemy
 werkzeug==0.14.1          # via flask
