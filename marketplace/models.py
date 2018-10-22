@@ -13,6 +13,7 @@ class Product(db.Model):
         return {
             'id': self.id,
             'name': self.name,
-            # Decimal is not JSON serializable
-            'price': float(self.price),
+            # Note: postman tests seem to require price to be a
+            # string, with 2 decimal places
+            'price': '{:.2f}'.format(self.price),
         }
