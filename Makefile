@@ -11,4 +11,7 @@ deps:
 install-deps:
 	pip install -r requirements.txt
 
+zip:
+	python setup.py sdist --format=zip
+
 .PHONY: develop deps install-deps run test
